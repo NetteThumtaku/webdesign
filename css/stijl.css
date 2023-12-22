@@ -1,0 +1,532 @@
+	
+/*nullen van alle selectors*/
+*{
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+/*nieuwe html5 elementen gekend maken voor oude browsers*/
+article,aside,figcaption,figure,footer,header,main,nav,section { 
+	display:block;
+}
+
+body{
+	Font-Family: 'Roboto Condensed', Sans-Serif;
+
+}
+
+
+
+article{
+	background-image: url(../images/nette1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	justify-content: center;
+	height: 1080px;
+	
+	background-position: center;
+
+
+}
+main{
+	padding-top: 50px;
+	background: #363636 ;
+}
+main h2{
+	padding-bottom: 20px;
+}
+/* opmaak van de navigatiebalk*/
+
+nav{
+	position: fixed;
+	background: rgba(80, 80, 80, 0.7);
+	width: 50%;
+	padding-left: 30%;
+	padding-right: 50%;
+
+
+
+
+}
+nav a{
+	padding: 15px;
+	color:white;
+	display: flex;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-transform: uppercase;
+
+}
+nav li{
+	display: inline-block;
+	padding: 0 20px;
+
+
+}
+nav a:hover{
+	color:deeppink;
+}
+
+article h1{
+
+ 	line-height: 1em;
+	font-size: 4.2em;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+article h2{
+	font-size:2.1em;
+	margin: 0 auto;
+	padding-top: 590px;
+	color: white;
+	text-align: center;
+
+}
+main section h2{
+	font-size: 1.9em;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding-top: 35px;
+}
+
+
+/*opmaak van de section 1 album*/
+
+
+section{
+	background: #363636;
+}
+
+/* h3 van de kleine tussentitels */
+
+#h3{
+	display: flex;
+	color: white;
+	justify-content: center;
+
+
+}
+h3{
+	padding: 20px 60px;
+	font-size: 1.2em;
+	color: white;
+}
+/* opmaak van de figures*/
+
+figcaption{
+	color: white;
+}
+.featured1{
+	display: flex;
+	justify-content: center;
+
+
+}
+figure {
+    display: block;
+    margin: 20px; 
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
+
+/*opmaal van de section 2 album*/
+.featured1 figcaption{
+	padding-top: 15px;
+
+
+}
+.featured2 figcaption{
+	padding-top: 15px;
+
+}
+
+
+
+.featured2{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 75px;
+}
+/* opmaak van de about me section*/
+
+
+
+#about_me h2
+{
+	text-align: center;
+}
+#about_me h3{
+	font-size: 1.2em;
+}
+h2 span{
+	text-transform: uppercase;
+	color: white;
+}
+#about_me p span{
+	color:#8C906F ;
+
+}
+
+#about_me p{
+	color: #707070;
+	background:rgba(67, 67, 67, 0.6);
+	padding: 30px;
+	height:  150px;
+
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+
+}
+.box1 section{
+	margin: 20px;
+}
+.box1{
+	
+	flex-basis: 600px;
+	margin-right: 20px;
+
+	
+}
+
+.box2 section{
+	margin: 20px;
+}
+.box2{
+	flex-basis: 600px;
+}
+
+/*opmaak van de creator jisoo */
+
+.creatorjisoo{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	color: #707070;
+	margin-bottom: 75px
+
+}
+.creatorjisoo figure{
+	padding-right: 127px;
+
+}
+
+.creatorjisoo section{
+	flex-basis: 450px;
+	margin-right: 100px;
+
+}
+.creatorjisoo section h2{
+	text-align: left;
+	
+}
+div{
+	padding-top: 30px;
+
+}
+.creatorjisoo p{
+	padding-top: 30px;
+
+}
+
+div a{	
+	text-align: center;
+	border-radius: 25px;
+	padding:10px 20px;
+	background: #8C906F;
+	color: white;
+	text-decoration: none;
+	font-size: 0.8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 15px;
+
+
+}
+ /*opmaak van de services*/
+
+ .services{
+ 	display: flex;
+ 	justify-content: center;
+ 	padding-bottom: 100px;
+ 	margin-top: 60px;
+ 
+ }
+ 
+ .services figure
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.services img{
+	width: 200px;
+	margin: 0 auto;
+}
+.services section{
+	padding-top: 25px;
+	margin-left: 15px;
+	flex-basis: 400px;
+	color: #707070 ;
+	background: rgba(67, 67, 67, 0.6) ;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.services section p{
+	line-height:1.8em;
+	padding: 0  70px;
+	color:#707070 ;
+	padding-bottom: 20px;
+
+}
+.services a{
+	text-decoration: none;
+	color: #8C906F ;
+}
+
+/*opmaak van de spotify deel*/
+
+.spoti{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 150px;
+}
+
+.spoti figure{
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 10px;
+}
+
+.spoti img{
+	width: 400px;
+
+}
+.spoti figcaption{
+	padding: 65px 20px;
+	text-align: center;
+	width:360px ;
+	color: rgba(112, 112, 112, 1.0);
+	background: rgba(112, 112, 112,0.4);
+
+}
+
+
+footer{
+	background:#363636 ;
+	color: white;
+	font-size:0.8em;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+/* mediaqueries*/
+
+
+
+@media only screen and (max-width: 1024px){
+
+	body{
+		display: block;
+	}
+
+
+	nav{
+		position: relative;
+		background: black;
+		text-align: left;
+		width: 75%;
+	}
+	nav a{
+		font-size: 0.8em;
+	}
+	
+
+	#album section img{
+		width: 100%;
+	}
+
+div a{	
+	text-align: center;
+	border-radius: 25px;
+	padding:10px 20px;
+	background: #8C906F;
+	color: white;
+	text-decoration: none;
+	font-size: 0.6em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 15px;
+
+}
+
+.services section{
+
+	margin-left: 5px;
+
+}
+.spoti img{
+	width: 250px;
+}
+.spoti figcaption{
+	padding: 20px 20px;
+	text-align: center;
+	width:210px ;
+	color: rgba(112, 112, 112, 1.0);
+	background: rgba(112, 112, 112,0.4);
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgrey;
+  }
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	display: block;
+	padding-right: 150px;
+	text-align: center;
+}
+nav a{
+	text-align: center;
+}
+
+h2,h3{
+	font-size: 1.2em;
+}
+ 
+section{
+	
+	display: block;
+}	
+
+
+.box{
+	display: inline-block;
+}
+
+.featured2{
+	display: block;
+	
+	
+}
+
+.featured1{
+	display: block;
+
+}
+
+
+#h3{
+	display: block;
+	color: white;
+	
+	text-align: center;
+}
+
+img{
+	width: 100%;
+}
+
+.creatorjisoo{
+	display: block;
+	justify-content: center;
+
+}
+
+.creatorjisoo figure{
+	margin: 0 auto;
+	width: 100%;
+}
+.creatorjisoo img{
+	width: 100%;
+	margin: 0 auto;
+}
+.creatorjisoo section{
+	width: 450px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.creatorjisoo section h2{
+	text-align: center;
+	
+}
+
+.services{
+ 	display: block;
+ 	margin-right: 15px;
+
+ 	
+ 
+ }
+
+.spoti{
+	display: block;
+
+}
+.spoti figure{
+	width: 80%;
+}
+.spoti img{
+	width: 100%;
+}
+.spoti figcaption{
+	padding: 0 80px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
