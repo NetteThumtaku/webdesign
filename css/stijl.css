@@ -18,7 +18,7 @@ body{
 
 
 article{
-	background-image: url(../images/nette1.jpg);
+	background-image: url(../images/nette3.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -209,7 +209,7 @@ h2 span{
 /*opmaak van de creator jisoo */
 
 .creatorjisoo{
-	margin-top: 50px;
+	margin-top: 70px;
 	display: flex;
 	justify-content: center;
 	padding-top: 50px;
@@ -242,15 +242,18 @@ div{
 
 div a{	
 	text-align: center;
-	border-radius: 25px;
-	padding:10px 20px;
+	
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-right: 15px;
 	background: #8C906F;
 	color: white;
 	text-decoration: none;
 	font-size: 0.8em;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-right: 15px;
+
 
 
 }
@@ -291,6 +294,7 @@ div a{
 	padding-bottom: 20px;
 
 }
+
 .services a{
 	text-decoration: none;
 	color: #8C906F ;
